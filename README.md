@@ -17,7 +17,7 @@ r = 1, s = 0
 r = 1, s = 1  
 
 But what about r = 0, s = 0?
-Intuitively, this should not be possible. But as this program shows, it is. At least one some processor architectures, like x86.
+Intuitively, this should not be possible. But as this program shows, it is. At least on some processor architectures, like x86.
 
 An x86 processor core remembers what is to be written to memory in a so-called write buffer. And this will be written at some point (flushed) but until then the program can continue to run. So it is faster. But leads however to such strange things.
 
